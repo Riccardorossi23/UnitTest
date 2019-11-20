@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CaleLibrary
 {
-    public static class Calcolatrice2
+    public static class Calcolatrice
     {
         public static int Somma(int num1,int num2)
         {

@@ -12,7 +12,7 @@ namespace Calclibrary_tests
             int num1 = 3;
             int num2 = 4;
             int somma_aspettata = 7;
-            int somma = Calcolatrice2.Somma(num1, num2);
+            int somma = Calcolatrice.Somma(num1, num2);
             Assert.AreEqual(somma_aspettata, somma);
         }
         [TestMethod]
@@ -21,7 +21,7 @@ namespace Calclibrary_tests
             int num1 = -3;
             int num2 = -5;
             int somma_aspettata = -8;
-            int somma = Calcolatrice2.SommaNegative(num1, num2);
+            int somma = Calcolatrice.SommaNegative(num1, num2);
             Assert.AreEqual(somma_aspettata, somma);
         }
     }

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaleLibrary", "CaleLibrary\CaleLibrary.csproj", "{2178B2C1-2F51-4292-AA2E-B56F54321124}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calclibrary_tests", "Calclibrary_tests\Calclibrary_tests.csproj", "{11BD9061-EA9E-4CA9-BA35-94CF621C2BB0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2178B2C1-2F51-4292-AA2E-B56F54321124} = {2178B2C1-2F51-4292-AA2E-B56F54321124}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2178B2C1-2F51-4292-AA2E-B56F54321124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2178B2C1-2F51-4292-AA2E-B56F54321124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2178B2C1-2F51-4292-AA2E-B56F54321124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2178B2C1-2F51-4292-AA2E-B56F54321124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11BD9061-EA9E-4CA9-BA35-94CF621C2BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BD9061-EA9E-4CA9-BA35-94CF621C2BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11BD9061-EA9E-4CA9-BA35-94CF621C2BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BD9061-EA9E-4CA9-BA35-94CF621C2BB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F396198-ED2C-4885-A32D-72513FA3EBDC}
+	EndGlobalSection
+EndGlobal
